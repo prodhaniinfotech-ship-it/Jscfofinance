@@ -6,14 +6,13 @@
 
   <script>
     // Hard redirect (kills iframe & cache)
-    window.location.replace(
-      "https://script.google.com/macros/s/AKfycbx-9AoKhaxB82dc106QojRKK-vlxFS7ez_1fTdnWJNbBSER1GHfu2NHhsfR9LI3WP27/exec"
-    );
+  const url = "https://script.google.com/macros/s/AKfycbx-9AoKhaxB82dc106QojRKK-vlxFS7ez_1fTdnWJNbBSER1GHfu2NHhsfR9LI3WP27/exec";
+window.location.replace(url + "?v=" + new Date().getTime());
   </script>
 
   <noscript>
     <meta http-equiv="refresh"
-          content="0; url=https://script.google.com/macros/s/AKfycbx-9AoKhaxB82dc106QojRKK-vlxFS7ez_1fTdnWJNbBSER1GHfu2NHhsfR9LI3WP27/exec">
+         content="0; url=https://script.google.com/macros/s/AKfycbx-9AoKhaxB82dc106QojRKK-vlxFS7ez_1fTdnWJNbBSER1GHfu2NHhsfR9LI3WP27/exec?v=1"
   </noscript>
 </head>
 
